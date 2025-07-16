@@ -8,7 +8,7 @@
   - Set up basic file structure with placeholder files for main components
   - _Requirements: 1, 2, 3_
 
-- [ ] 2. Initialize Git repository and connect to GitHub
+- [x] 2. Initialize Git repository and connect to GitHub
   - Initialize Git repository in project root directory
   - Create comprehensive .gitignore files for Python (backend) and Node.js (frontend)
   - Create README.md with project overview, setup instructions, and architecture description
@@ -17,7 +17,7 @@
   - Create initial commit and push basic project structure to GitHub
   - _Requirements: 2, 3_
 
-- [ ] 3. Set up complete Docker infrastructure
+- [x] 3. Set up complete Docker infrastructure
   - Create Dockerfile for Python FastAPI backend with all required dependencies
   - Create Dockerfile for React frontend with Node.js environment and Nginx serving
   - Write comprehensive docker-compose.yml with PostgreSQL, backend, and frontend services
@@ -26,7 +26,7 @@
   - Create database initialization script (init.sql) with proper schema
   - _Requirements: 1, 2_
 
-- [ ] 4. Test and verify complete Docker setup
+- [x] 4. Test and verify complete Docker setup (NOTE: Hardcoded DB credentials in docker-compose.yml as a workaround for env_file issue)
   - Build all Docker images and verify successful builds
   - Start all services using docker-compose up and verify connectivity
   - Test PostgreSQL database connection and table creation
@@ -36,7 +36,7 @@
   - Create health check endpoints and verify all services are running properly
   - _Requirements: 1, 2, 4_
 
-- [ ] 5. Create minimal working application skeleton
+- [x] 5. Create minimal working application skeleton (NOTE: Hardcoded credentials in docker-compose.yml for backend and db)
   - Implement basic FastAPI application with main.py and health check endpoint
   - Create minimal React application with basic routing and placeholder pages
   - Set up database connection in FastAPI using SQLAlchemy

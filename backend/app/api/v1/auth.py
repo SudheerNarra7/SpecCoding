@@ -1,2 +1,7 @@
-# Authentication endpoints
-# API routes for user authentication (register, login, logout, verify-email)
+from fastapi import APIRouter
+
+router = APIRouter()
+
+@router.get("/")
+def get_auth_routes():
+    return {"message": "auth routes"}
